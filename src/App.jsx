@@ -1,13 +1,16 @@
 /* eslint-disable linebreak-style */
-import React from 'react';
+import React, { useState } from 'react';
 import fetchData from './services/api';
+
 import Card from './components/Card';
 
 function App() {
+  const [city, setCity] = useState('');
+  const [data, setData] = useState({});
   const handleSubmit = (event) => {
     event.preventDefault();
-    fetchData('fortaleza').then((response) => {
-      console.log(response);
+    fetchData(city).then((response) => {
+      setData(response);
     });
   };
   return (
@@ -17,6 +20,8 @@ function App() {
           type="text"
           placeholder="Cidade"
           className="p-3 rounded-lg outline-none"
+          value={city}
+          onChange={({ target: { value } }) => setCity(value)}
         />
         <button
           type="submit"
@@ -25,8 +30,7 @@ function App() {
           Pesquisar
         </button>
       </form>
-
-      <Card />
+      <Card data={data} />
     </div>
   );
 }
