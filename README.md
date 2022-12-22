@@ -38,7 +38,7 @@ O projeto é um App de Clima usando React JS, React Hook, Tailwind CSS e consumi
 
 ## 🔖 Layout
 
-Você pode navegar pelo projeto através [DESSE LINK](https://thiagomonts.github.io/).
+Você pode navegar pelo projeto através [DESSE LINK](https://weather-app-thiagomonts.vercel.app/).
 
 <br>
 
