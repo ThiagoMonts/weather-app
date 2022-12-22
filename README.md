@@ -18,12 +18,14 @@ App de previsão do tempo criada utilizando React JS, React Hook, Tailwind CSS, 
 ## 🚀 Tecnologias
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
-
-[Atualizar]
+<img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white">
+<img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white">
+<img src="https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E">
+<br>
 
 ## 💻 Projeto
 
-Descrição.
+O projeto é um App de Clima usando React JS, React Hook, Tailwind CSS e consumindo uma API externa. Nesse App, além do React JS, também foi usado alguns conceitos importantes, como o ESLint, funções assíncronas, eventos sintéticos, Hooks, estilização e design responsivo usando Tailwind CSS.
 
 ## 🔖 Layout
 
